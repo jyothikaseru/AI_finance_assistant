@@ -1,0 +1,9 @@
+AI/ai_env/
+backend/RAG/DATA/
+backend/RAG/companies.csv
+backend/RAG/extracted_pages.csv
+1.txt
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
