@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ["@xenova/transformers", "onnxruntime-node"],
+  allowedDevOrigins: ["172.23.43.11", "localhost:3000"],
 };
 
 export default nextConfig;
